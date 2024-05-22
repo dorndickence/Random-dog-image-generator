@@ -1,0 +1,106 @@
+* {
+ margin:0;
+padding:0;
+font-family:'poppins', sans-serif;
+box-sizing:border-box;
+
+
+}
+
+body {
+background:linear-gradient(45deg,#010758,#490d61);
+background-size:cover;
+
+}
+
+.cover-dog {
+border:3px solid white;
+display:flex;
+flex-direction:column;
+
+
+
+}
+.container {
+width:100%;
+height:100vh;
+background-color:transparent;
+display:flex;
+align-items:center;
+justify-content:center;
+overflow-y: auto;
+
+
+
+
+}
+
+.image-width {
+width:300px;
+height:300px;
+display:inline-block;
+margin:20px;
+border-radius:15px;
+outline:0;
+border:0;
+box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+
+
+.dog {
+
+
+
+}
+
+button{
+
+width:100px;
+position:fixed;
+height:50px;
+top:10;
+right:0;
+color:Blue;
+font-size:18px;
+font-weight:600px;
+
+}
+
+.dog-button {
+display:flex;
+float:right;
+
+}
+header {
+position:fixed;
+background:#002339;
+display:flex;
+width:100%;
+}
+
+h1 {
+    color: white;
+    overflow: hidden;
+
+    white-space: nowrap;
+    animation: typing 4s steps(40, end) infinite alternate, blink-caret 3.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: white;
+    }
+    50% {
+        border-color: yellow;
+    }
+}
